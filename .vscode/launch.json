@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run traffic scheduler experiment",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_project.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "--flows", "2500",
+        "--train-scenarios", "10",
+        "--test-repetitions", "3",
+        "--seed", "42"
+      ],
+      "python": "${workspaceFolder}/.venv/bin/python"
+    }
+  ]
+}

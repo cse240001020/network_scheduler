@@ -1,0 +1,7 @@
+build/
+work/
+artifacts/
+.venv/
+__pycache__/
+*.py[cod]
+*.csv
